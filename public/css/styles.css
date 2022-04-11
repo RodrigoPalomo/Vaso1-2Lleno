@@ -1,0 +1,823 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/*HEADER*/
+header{
+    background-image: url("/images/background.jpg");
+    background-repeat: repeat-y;
+    position: sticky;top: 0;
+}
+.cajaLogoNavBar{
+    background-color:#b6b9006b;
+    
+}
+.burgerMenu{
+    text-align: right;
+}
+.fa-bars{
+    padding: 13px;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 22px;
+}
+.cajaPediOnline{
+    background-color:#5182ffd4;
+    width: 26%;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 4px;
+}
+.pediOnline{
+    color: blue;
+    text-align: center;
+}
+.fa-truck{
+    display: none;
+}
+/* NAVBAR */
+.logoNavBar{
+    width: 17%;
+    margin-top: -62px;
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.loginNavBar{
+    display: none;
+}
+/* MAIN */
+body{
+    font-family: caudex,serif;
+}
+main{
+    text-align: center;
+    background-color: #ffbe0fe8;
+    background-image: url("/images/background.jpg");
+    background-repeat: repeat-y;
+}
+.imagenProducto{
+    width: 70%;
+    border-radius: 132px;
+    height: 263px;
+}
+.seccionProductos{
+    display: block;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.producto{
+    margin: 15px;
+    padding: 7px;
+    height: 442px;
+    width: 100%;
+}
+.precio{
+    color: rgb(4, 121, 4);
+}
+.imagenRelleno{
+    width: 100%;
+    margin: 22px 0px 18px;
+}
+.horarios{
+    font-family: caudex,serif;
+}
+.primerHorario{
+    text-decoration: underline;
+}
+.segundoHorario{
+    text-decoration: underline;
+}
+.imagenTraje{
+    width: 100%;
+    opacity: 70%;
+    margin: 18px 0px 18px;
+}
+.queOfrecemos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.nuestrosCocktailsOfrecemos{
+    background-color: #1597e5d4;
+    border-radius: 13px;
+    padding: 4px;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gif{
+    width: 100%;
+    padding: 100px;
+    margin: -120px;
+}
+.title{
+    color: black;
+}
+.descripcionCocktail{
+    font-family: caudex,serif;
+    color: #c10d0c;
+    margin: 34px 0px 39px;
+}
+.ingresarUsuario{
+    display: flex;
+    flex-flow: column;
+}
+.casillaEmail{
+    height: 35px;
+    margin: 0px 0px 20px;
+    border-radius: 7px;
+    background-color: beige;
+    display: flex;
+    align-content: center;
+    width: 78%;
+    align-self: center;
+    font: message-box;
+}
+.casillaPassword{
+    height: 35px;
+    margin: 0px 0px 20px;
+    border-radius: 7px;
+    background-color: beige;
+    display: flex;
+    align-content: center;
+    width: 78%;
+    align-self: center;
+    font: message-box;
+}
+.cajaBotonUsuario{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 15px 18px;
+}
+.botonUsuario{
+    padding: 5px;
+    border-radius: 15px;
+    color: yellow;
+    background-color: black;
+}
+.fecha{
+    margin: 15px;
+    height: 35px;
+    width: 50%;
+    background-color: beige;
+}
+.horario{
+    margin: 15px;
+    height: 35px;
+    width: 50%;
+    background-color: beige;
+}
+.select{
+    margin: 15px;
+    height: 35px;
+    width: 50%;
+    background-color: beige;
+}
+.cajaBotonReserva{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 15px;
+}
+.botonReserva{
+    padding: 5px;
+    border-radius: 15px;
+    color: yellow;
+    background-color: black;
+}
+/* FOOTER */
+.cajaContacto{
+    background-color: black;
+    color: #ffffff;
+    margin: 25px 0px 25px 0px;
+    padding: 25px;
+}
+.cajaRedes{
+    background-color: black;
+    color: #ffffff;
+    margin: -24px 0px 25px 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+/* TABLET */
+@media (min-width: 426px){
+    /*HEADER*/
+    header{
+        background-image: url("/images/background.jpg");
+        background-repeat: repeat-y;
+        background-repeat: repeat-x ;
+        position: static ;top: 0;
+    }
+    .burgerMenu{
+        display: none;
+    }
+    .fa-bars{
+        padding: 13px;
+        border-radius: 8px;
+        color: white;
+        margin-bottom: 22px;
+    }
+    .cajaPediOnline{
+        background-color:#5182ffd4;
+        width: 15%;
+        margin: 15px;
+        border-radius: 8px;
+        padding: 4px;
+        display: inline-flex;
+    }
+    .pediOnline{
+        color: blue;
+        text-align: center;
+    }
+    .fa-truck{
+        display: flex;
+    }
+    /* NAVBAR */
+    .cajaLogoNavBar{
+        background-color:#b6b9006b;
+    }
+    .logoNavBar{
+        width: 12%;
+        margin-top: -14px;
+    }
+    .titulo{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .loginNavBar{
+        width: 89%;
+        display: flex;
+        position: relative;
+        top: 14px;
+        left: 69px;
+        place-content: space-evenly;
+    }
+    /* MAIN */
+    body{
+        font-family: caudex,serif;
+    }
+    main{
+        text-align: center;
+        background-color: #ffbe0fe8;
+        background-image: url("/images/backgroundTablet2.jpg");
+        background-repeat: repeat-y;
+    }
+    .imagenProducto{
+        width: 40%;
+        border-radius: 107px;
+        height: 288px;
+}
+    }
+    .producto{
+        margin: 15px;
+        padding: 7px;
+        height: 442px;
+        width: 100%;
+    }
+    .precio{
+        color: rgb(4, 121, 4);
+    }
+    .imagenRelleno{
+        width: 100%;
+        margin: 22px 0px 18px;
+    }
+    .horarios{
+        font-family: caudex,serif;
+    }
+    .primerHorario{
+        text-decoration: underline;
+    }
+    .segundoHorario{
+        text-decoration: underline;
+    }
+    .imagenTraje{
+        width: 100%;
+        opacity: 96%;
+        margin: 18px 0px 18px;
+    }
+    .queOfrecemos{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .nuestrosCocktailsOfrecemos{
+        background-color: #1597e5d4;
+        border-radius: 13px;
+        padding: 4px;
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .gif{
+        width: 100%;
+        padding: 100px;
+        margin: -120px;
+    }
+    .title{
+        color: black;
+    }
+    .descripcionCocktail{
+        font-family: caudex,serif;
+        color: #c10d0c;
+        margin: 34px 0px 39px;
+    }
+    .ingresarUsuario{
+        display: flex;
+        flex-flow: column;
+    }
+    .casillaEmail{
+        height: 35px;
+        margin: 0px 0px 20px;
+        border-radius: 7px;
+        background-color: beige;
+        display: flex;
+        align-content: center;
+        width: 78%;
+        align-self: center;
+        font: message-box;
+    }
+    .casillaPassword{
+        height: 35px;
+        margin: 0px 0px 20px;
+        border-radius: 7px;
+        background-color: beige;
+        display: flex;
+        align-content: center;
+        width: 78%;
+        align-self: center;
+        font: message-box;
+    }
+    .cajaBotonUsuario{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 15px 18px;
+    }
+    .botonUsuario{
+        padding: 5px;
+        border-radius: 15px;
+        color: yellow;
+        background-color: black;
+    }
+    .fecha{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .horario{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .select{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .cajaBotonReserva{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 15px;
+    }
+    .botonReserva{
+        padding: 5px;
+        border-radius: 15px;
+        color: yellow;
+        background-color: black;
+    }
+    /* FOOTER */
+    .cajaContacto{
+        background-color: black;
+        color: #ffffff;
+        margin: 25px 0px 25px 0px;
+        padding: 25px;
+    }
+    .cajaRedes{
+        background-color: black;
+        color: #ffffff;
+        margin: -24px 0px 25px 0px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-around;
+    }
+    /* LAPTOP */
+    @media (min-width: 769px){
+         /*HEADER*/
+    header{
+        background-image: url("/images/background.jpg");
+        background-repeat: repeat-y;
+        background-repeat: repeat-x ;
+        position: static ;top: 0;
+    }
+    .burgerMenu{
+        display: none;
+    }
+    .fa-bars{
+        padding: 13px;
+        border-radius: 8px;
+        color: white;
+        margin-bottom: 22px;
+    }
+    .cajaPediOnline{
+        background-color:#5182ffd4;
+        width: 12%;
+        margin: 15px;
+        border-radius: 8px;
+        padding: 4px;
+        display: inline-flex;
+    }
+    .pediOnline{
+        color: blue;
+        text-align: center;
+    }
+    .fa-truck{
+        display: flex;
+    }
+    /* NAVBAR */
+    .cajaLogoNavBar{
+        background-color:#b6b9006b;
+    }
+    .logoNavBar{
+        width: 12%;
+        margin-top: -14px;
+    }
+    .titulo{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .loginNavBar{
+        width: 89%;
+        display: flex;
+        position: relative;
+        top: 14px;
+        left: 69px;
+        place-content: space-evenly;
+    }
+    /* MAIN */
+    body{
+        font-family: caudex,serif;
+    }
+    main{
+        text-align: center;
+        background-color: #ffbe0fe8;
+        background-image: url("/images/backgroundTablet2.jpg");
+        background-repeat: repeat-y;
+    }
+    .imagenProducto{
+        width: 33%;
+        border-radius: 67px;
+        height: 290px;
+}
+    }
+    .producto{
+        margin: 15px;
+        padding: 7px;
+        height: 442px;
+        width: 100%;
+    }
+    .precio{
+        color: rgb(4, 121, 4);
+    }
+    .seccionProductos{
+        display: flex;
+    }
+    .imagenRelleno{
+        width: 100%;
+        margin: 22px 0px 18px;
+    }
+    .horarios{
+        font-family: caudex,serif;
+    }
+    .primerHorario{
+        text-decoration: underline;
+    }
+    .segundoHorario{
+        text-decoration: underline;
+    }
+    .imagenTraje{
+        width: 100%;
+        opacity: 96%;
+        margin: 18px 0px 18px;
+    }
+    .queOfrecemos{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .nuestrosCocktailsOfrecemos{
+        background-color: #1597e5d4;
+        border-radius: 13px;
+        padding: 4px;
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .gif{
+        width: 89%;
+        padding: 197px;
+        margin: -186px;
+    }
+    .title{
+        color: black;
+    }
+    .descripcionCocktail{
+        font-family: caudex,serif;
+        color: #c10d0c;
+        margin: 34px 0px 39px;
+    }
+    .ingresarUsuario{
+        display: flex;
+        flex-flow: column;
+    }
+    .casillaEmail{
+        height: 35px;
+        margin: 0px 0px 20px;
+        border-radius: 7px;
+        background-color: beige;
+        display: flex;
+        align-content: center;
+        width: 78%;
+        align-self: center;
+        font: message-box;
+    }
+    .casillaPassword{
+        height: 35px;
+        margin: 0px 0px 20px;
+        border-radius: 7px;
+        background-color: beige;
+        display: flex;
+        align-content: center;
+        width: 78%;
+        align-self: center;
+        font: message-box;
+    }
+    .cajaBotonUsuario{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 15px 18px;
+    }
+    .botonUsuario{
+        padding: 11px;
+        border-radius: 11px;
+        color: yellow;
+        background-color: black;
+    }
+    .fecha{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .horario{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .select{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .cajaBotonReserva{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 15px;
+    }
+    .botonReserva{
+        padding: 11px;
+        border-radius: 10px;
+        color: yellow;
+        background-color: black;
+    }
+    /* FOOTER */
+    .cajaContacto{
+        background-color: black;
+        color: #ffffff;
+        margin: 25px 0px 25px 0px;
+        padding: 25px;
+    }
+    .cajaRedes{
+        background-color: black;
+        color: #ffffff;
+        margin: -24px 0px 25px 0px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-around;
+    }
+    /* COMPUTADORA DE ESCRITORIO */
+    @media (min-width: 1025px){
+             /*HEADER*/
+    header{
+        background-image: url("/images/background.jpg");
+        background-repeat: repeat-y;
+        background-repeat: repeat-x ;
+        position: static ;top: 0;
+    }
+    .burgerMenu{
+        display: none;
+    }
+    .fa-bars{
+        padding: 13px;
+        border-radius: 8px;
+        color: white;
+        margin-bottom: 22px;
+    }
+    .cajaPediOnline{
+        background-color:#5182ffd4;
+        width: 8%;
+        margin: 15px;
+        border-radius: 8px;
+        padding: 4px;
+        display: inline-flex;
+    }
+    .pediOnline{
+        color: blue;
+        text-align: center;
+    }
+    .fa-truck{
+        display: flex;
+    }
+    /* NAVBAR */
+    .cajaLogoNavBar{
+        background-color:#b6b9006b;
+    }
+    .logoNavBar{
+        width: 12%;
+        margin-top: -14px;
+    }
+    .titulo{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .loginNavBar{
+        width: 89%;
+        display: flex;
+        position: relative;
+        top: 14px;
+        left: 69px;
+        place-content: space-evenly;
+    }
+    /* MAIN */
+    body{
+        font-family: caudex,serif;
+    }
+    main{
+        text-align: center;
+        background-color: #ffbe0fe8;
+        background-image: url("/images/backgroundTablet2.jpg");
+        background-repeat: repeat-y;
+    }
+    .imagenProducto{
+        width: 33%;
+        border-radius: 67px;
+        height: 378px;
+}
+    }
+    .producto{
+        margin: 34px;
+        padding: 7px;
+        height: 442px;
+        width: 100%;
+    }
+    .precio{
+        color: rgb(4, 121, 4);
+    }
+    .seccionProductos{
+        display: flex;
+    }
+    .imagenRelleno{
+        width: 100%;
+        margin: 22px 0px 18px;
+    }
+    .horarios{
+        font-family: caudex,serif;
+    }
+    .primerHorario{
+        text-decoration: underline;
+    }
+    .segundoHorario{
+        text-decoration: underline;
+    }
+    .imagenTraje{
+        width: 100%;
+        opacity: 96%;
+        margin: 18px 0px 18px;
+    }
+    .queOfrecemos{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .nuestrosCocktailsOfrecemos{
+        background-color: #1597e5d4;
+        border-radius: 13px;
+        padding: 4px;
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .gif{
+        width: 60%;
+        padding: 197px;
+        margin: -186px;
+    }
+    .title{
+        color: black;
+    }
+    .descripcionCocktail{
+        font-family: caudex,serif;
+        color: #c10d0c;
+        margin: 34px 0px 39px;
+    }
+    .ingresarUsuario{
+        display: flex;
+        flex-flow: column;
+    }
+    .casillaEmail{
+        height: 35px;
+        margin: 0px 0px 20px;
+        border-radius: 7px;
+        background-color: beige;
+        display: flex;
+        align-content: center;
+        width: 78%;
+        align-self: center;
+        font: message-box;
+    }
+    .casillaPassword{
+        height: 35px;
+        margin: 0px 0px 20px;
+        border-radius: 7px;
+        background-color: beige;
+        display: flex;
+        align-content: center;
+        width: 78%;
+        align-self: center;
+        font: message-box;
+    }
+    .cajaBotonUsuario{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 15px 18px;
+    }
+    .botonUsuario{
+        padding: 11px;
+        border-radius: 11px;
+        color: yellow;
+        background-color: black;
+    }
+    .fecha{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .horario{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .select{
+        margin: 15px;
+        height: 35px;
+        width: 50%;
+        background-color: beige;
+    }
+    .cajaBotonReserva{
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0px 15px;
+    }
+    .botonReserva{
+        padding: 11px;
+        border-radius: 10px;
+        color: yellow;
+        background-color: black;
+    }
+    /* FOOTER */
+    .cajaContacto{
+        background-color: black;
+        color: #ffffff;
+        margin: 25px 0px 25px 0px;
+        padding: 25px;
+    }
+    .cajaRedes{
+        background-color: black;
+        color: #ffffff;
+        margin: -24px 0px 25px 0px;
+        padding: 25px;
+        display: flex;
+        justify-content: space-around;
+    }

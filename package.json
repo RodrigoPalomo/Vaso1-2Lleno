@@ -1,0 +1,24 @@
+{
+  "name": "vaso12lleno",
+  "version": "1.0.0",
+  "description": "vaso 1/2 lleno",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoPalomo/Vaso1-2Lleno.git"
+  },
+  "author": "Rodrigo Palomo, Clara Guastavino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoPalomo/Vaso1-2Lleno/issues"
+  },
+  "homepage": "https://github.com/RodrigoPalomo/Vaso1-2Lleno#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "modules": "^0.4.0",
+    "node": "^17.7.1"
+  }
+}
