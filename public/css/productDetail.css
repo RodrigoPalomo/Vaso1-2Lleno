@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* HEADER */
+.detail-cajaTitulo{
+    background-color: #ffcd32;
+    text-align: center;
+}
+.detail-titulo{
+    text-decoration: underline;
+}
+/* BODY */
+body{
+    font-family: 'Caudex', serif;
+    background-color: #ffcd32;
+}
+.detail-imagenAmericana{
+    width: 100%;
+    padding: 45px 17px 7px 17px;
+}
+.detail-description{
+    text-align: center;
+}
+.detail-specialRequest{
+    padding: 25px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.detail-specialRequestBox{
+    border: 1px solid gray;
+    font-family: 'Caudex', serif;
+    padding: 20px 110px;
+    background-color: #ffcd32;
+}
+.detail-separadorCarrito{
+    margin-top: 40px;
+}
+.detail-contenedorAñadirCarrito{
+    border: 1px solid gray;
+}
