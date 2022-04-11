@@ -8,12 +8,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Caudex&family=Dancing+Script&family=League+Spartan:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css" />
     <title>Vaso 1/2 Lleno</title>
   </head>
@@ -22,85 +19,87 @@
       <nav class="cajaLogoNavBar">
         <nav class="loginNavBar">
           <h4>Home</h4>
-          <h4>Sobre Nostros</h4>
-          <a href="/views/productDetail.html"><h4>Nuestros Cocktails</h4></a> 
+          <h4>Sobre Nostros</h4>  
+          <a href="/detail"><h4>Nuestros Cocktails</h4></a> 
           <h4>Iniciar Sesión</h4>
         </nav>
-        <nav class="burgerMenu">
+        <div class="home-conteinerLogoYTitle">
+          <img class="logoNavBar" src="./images/logo1.png" alt="logo" />
+          <div class="home-conteinerTitleVaso12Lleno">
+            <p>Vaso</p>
+            <p>1/2</p>
+            <p>Lleno</p>
+          </div>
+        </div>
           <i class="fas fa-bars"></i>
-        </nav>
-        <img class="logoNavBar" src="./images/log.png" alt="logo" />
       </nav>
     </nav>
     
   </header>
   <body>
     <main>
-      <h1 class="titulo">Vaso 1/2 lleno</h1>
-      <div class="cajaPediOnline">
+      <!-- <div class="cajaPediOnline">
         <a href="#"><p class="pediOnline">¡Pedí online!</p></a> 
         <div cajaEnvio><i class="fas fa-truck"></i></div>
-      </div>
-      <article>
+      </div> -->
         <!-- <img class="" src="" alt="" srcset=""> espacio imagen para el fondo -->
         <!-- <img class="" src="" alt="" srcset="">  -->
         <!-- espacio para logo -->
-        <hr />
-        <br>
+        <section class="home-carrousel">
+          <img src="./images/carrousel1.jpg" alt="">
+          <!-- <img src="./images/carrousel2.jpg" alt="">
+          <img src="./images/carrousel3.jpg" alt=""> -->
+          <button class="home-buttonCarrousel">Pedí tus tragos Online</button>
+        </section>
         <section>
           <h2>Tragos Destacados</h2>
           <div class="seccionProductos">
             <section class="producto">
               <img
                 class="imagenProducto"
-                src="./images/americana.jpg"
+                src="./images/margarita.jpg"
                 alt="Americana"
               />
               <div class="cajaProducto">
-                <div class="cajaPrecio">
-                <h3 class="precio">$520</h3>
-                </div>
-                <br />
-                <div class="cajaNombre">
-                <h3 class="nombre">Americana</h3>
-                </div>
+                <h3 class="precio">ARS$520</h3>
+                <h3 class="nombre">Margarita</h3>
               </div>
             </section>
             <section class="producto">
               <img
-                class="imagenProducto"
-                src="./images/limesupreme.jpg"
+                class="imagenProducto"  
+                src="./images/whisky.jpg"
                 alt="Bloody Cherry"
               />
               <div class="cajaProducto">
-                <div class="cajaPrecio">
-                <h3 class="precio">$500</h3>
-                </div>
-                <br />
-                <div class="cajaNombre">
-                <h3 class="nombre">Lime Supreme</h3>
-                </div>
+                <h3 class="precio">ARS$500</h3>
+                <h3 class="nombre">Whisky</h3>
               </div>
             </section>
             <section class="producto">
               <img
                 class="imagenProducto"
-                src="./images/citrusblend.jpg"
+                src="./images/blodyCherry_.jpg"
                 alt="Citrus Blend"
               />
               <div class="cajaProducto">
-                <div class="cajaPrecio">
-                <h3 class="precio">$400</h3>
-                </div>
-                <br />
-                <div class="cajaNombre">
+                <h3 class="precio">ARS$400</h3>
                 <h3 class="nombre">Citrus Blend</h3>
-                </div>
               </div>
           </div>
           </section>
+          <section class="producto">
+            <img
+              class="imagenProducto"  
+              src="./images/copa.jpg"
+              alt="Bloody Cherry"
+            />
+            <div class="cajaProducto">
+              <h3 class="precio">ARS$590</h3>
+              <h3 class="nombre">Campari</h3>
+            </div>
+          </section>
         </section>
-      </article>
             <hr>
             <br>
             <h2>Horarios</h2>
