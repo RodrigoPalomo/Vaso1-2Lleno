@@ -3,24 +3,32 @@
     padding:0px;
     box-sizing: border-box;
 }
-/*HEADER*/
+/*HEADER Y NAVBAR*/
 header{
     background-image: url("/images/background.jpg");
     background-repeat: repeat-y;
     position: sticky;top: 0;
 }
+.home-conteinerTitleVaso12Lleno p{
+    color: white;
+}
+.home-conteinerLogoYTitle{
+    display: flex;
+    align-items: center;
+}
 .cajaLogoNavBar{
-    background-color:#b6b9006b;
-    
+    background-color: #7C0A02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .burgerMenu{
     text-align: right;
 }
 .fa-bars{
-    padding: 13px;
-    border-radius: 8px;
     color: white;
-    margin-bottom: 22px;
+    margin: 22px;
+    font-size: 34px;
 }
 .cajaPediOnline{
     background-color:#5182ffd4;
@@ -36,10 +44,9 @@ header{
 .fa-truck{
     display: none;
 }
-/* NAVBAR */
-.logoNavBar{
-    width: 17%;
-    margin-top: -62px;
+.logoNavBar{    
+    width: 20%;
+    margin: 10px 10px 10px 15px;
 }
 .titulo{
     text-align: center;
@@ -50,7 +57,7 @@ header{
 }
 /* MAIN */
 body{
-    font-family: caudex,serif;
+    font-family: 'Caudex', serif
 }
 main{
     text-align: center;
@@ -58,24 +65,49 @@ main{
     background-image: url("/images/background.jpg");
     background-repeat: repeat-y;
 }
+/*CARROUSEL*/
+.home-carrousel img{
+    width: 98%;
+}
+.home-buttonCarrousel{
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    font-size: 16px;
+    padding: 14px;
+    background-color: #0F2C67;
+    font-family: 'Caudex', serif;   
+}
+/*PRODUCTOS*/
 .imagenProducto{
-    width: 70%;
+    width: 55%;
     border-radius: 132px;
-    height: 263px;
 }
 .seccionProductos{
-    display: block;
-    flex-flow: wrap;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .producto{
-    margin: 15px;
+    margin: 10px;
     padding: 7px;
-    height: 442px;
-    width: 100%;
+}
+.cajaProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .precio{
-    color: rgb(4, 121, 4);
+    color: #7C0A02;
+    font-size: 30px;
+}
+.nombre{
+    font-size: 25px;
+    border-top: 2px solid #B22222;
+    margin: 15px;
 }
 .imagenRelleno{
     width: 100%;
@@ -217,9 +249,9 @@ main{
     }
     .fa-bars{
         padding: 13px;
-        border-radius: 8px;
         color: white;
-        margin-bottom: 22px;
+        font-size: 35px;
+        margin: 22px;
     }
     .cajaPediOnline{
         background-color:#5182ffd4;
@@ -270,7 +302,6 @@ main{
         width: 40%;
         border-radius: 107px;
         height: 288px;
-}
     }
     .producto{
         margin: 15px;
@@ -407,6 +438,7 @@ main{
         display: flex;
         justify-content: space-around;
     }
+}
     /* LAPTOP */
     @media (min-width: 769px){
          /*HEADER*/
@@ -474,7 +506,6 @@ main{
         width: 33%;
         border-radius: 67px;
         height: 290px;
-}
     }
     .producto{
         margin: 15px;
@@ -614,6 +645,7 @@ main{
         display: flex;
         justify-content: space-around;
     }
+}
     /* COMPUTADORA DE ESCRITORIO */
     @media (min-width: 1025px){
              /*HEADER*/
@@ -681,7 +713,6 @@ main{
         width: 33%;
         border-radius: 67px;
         height: 378px;
-}
     }
     .producto{
         margin: 34px;
@@ -821,3 +852,4 @@ main{
         display: flex;
         justify-content: space-around;
     }
+}
