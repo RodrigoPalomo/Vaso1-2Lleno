@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/* BODY */
+body{
+    background-color: #ffcd32;
+    font-family: 'Caudex', serif;
+}
+.productCard-cajaTitulo{
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.productCard-windowsClose{
+    color: #ad0000;
+    font-size: 26px;
+    margin: 10px 10px 0px 0px;
+}
+.productCard-titulo{
+    color: #ad0000;
+    margin: 13px;
+    margin: 25px 0px 0px 25px
+}
+.productCard-precio{
+    color: #002c5d;
+    position: absolute;
+    left: 80%;
+    top: 12%;
+    margin: -5px;
+}
+.productCard-nombreTrago{
+    color: #002c5d;
+    margin: 15px;
+    border-bottom: 1px solid gray;
+}
+.productCard-editarRemove {
+    color: #002c5d;
+    display: flex;
+    margin: 23px 0px 40px 0px;
+}
+.productCard-editar{
+    color: #002c5d;
+    display: flex;
+    margin-right: 34px;
+}
+.productCard-sumador{
+    position: absolute;
+    right: 6%;
+    border: 1px solid gray;
+    font-size: 15px;
+    width: 19%;
+    text-align: center;
+}
+.productCard-totalPagar{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+    margin: 15px 0px 30px 0px;
+    padding-bottom: 15px;
+}
+.productCard-continuarPagar{
+    background-color: #002c5d;
+    width: 35%;
+    margin-left: 15px;
+    color: white;
+    border-radius: 6px;
+    padding: 5px;
+}
+.productCard-cajaContinuarPagar{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+/* #002c5d color azul*/
