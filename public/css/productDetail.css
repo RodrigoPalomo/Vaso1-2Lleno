@@ -16,6 +16,14 @@ body{
     font-family: 'Caudex', serif;
     background-color: #ffcd32;
 }
+.detail-cajaWindowsClose{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fa-window-close{
+    font-size: 28px;
+    margin: 10px 10px 0px 0px;
+}
 .detail-imagenAmericana{
     width: 100%;
     padding: 45px 17px 7px 17px;
