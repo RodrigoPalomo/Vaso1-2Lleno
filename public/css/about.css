@@ -1,0 +1,224 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #ffbe0fe8;
+    background-image: url("/images/background.jpg");
+    background-repeat: repeat-y;
+}
+/*HEADER Y NAVBAR*/
+header{
+    background-image: url("/images/background.jpg");
+    background-repeat: repeat-y;
+    position: sticky;top: 0;
+}
+.home-conteinerTitleVaso12Lleno p{
+    color: white;
+}
+.home-conteinerLogoYTitle{
+    display: flex;
+    align-items: center;
+}
+.cajaLogoNavBar{
+    background-color: #7C0A02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.burgerMenu{
+    text-align: right;
+}
+.fa-bars{
+    color: white;
+    margin: 22px;
+    font-size: 34px;
+}
+.cajaPediOnline{
+    background-color:#5182ffd4;
+    width: 26%;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 4px;
+}
+.pediOnline{
+    color: blue;
+    text-align: center;
+}
+.fa-truck{
+    display: none;
+}
+.logoNavBar{    
+    width: 20%;
+    margin: 10px 10px 10px 15px;
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.loginNavBar{
+    display: none;
+}
+.loginNavBar a{
+text-decoration: none;
+color: white;
+}
+/*MAIN*/
+.horarios{
+    font-family: caudex,serif;
+}
+.primerHorario{
+    text-decoration: underline;
+}
+.segundoHorario{
+    text-decoration: underline;
+}
+.imagenTraje{
+    width: 100%;
+    opacity: 70%;
+    margin: 18px 0px 18px;
+}
+.queOfrecemos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.nuestrosCocktailsOfrecemos{
+    background-color: #1597e5d4;
+    border-radius: 13px;
+    padding: 4px;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gif{
+    width: 72%;
+    margin: 10PX;
+}
+.title{
+    color: black;
+}
+.descripcionCocktail{
+    font-family: caudex,serif;
+    color: #c10d0c;
+    margin: 34px 0px 39px;
+}
+.ingresarUsuario{
+    display: flex;
+    flex-flow: column;
+}
+.casillaEmail{
+    height: 35px;
+    margin: 0px 0px 20px;
+    border-radius: 7px;
+    background-color: beige;
+    display: flex;
+    align-content: center;
+    width: 78%;
+    align-self: center;
+    font: message-box;
+}
+.casillaPassword{
+    height: 35px;
+    margin: 0px 0px 20px;
+    border-radius: 7px;
+    background-color: beige;
+    display: flex;
+    align-content: center;
+    width: 78%;
+    align-self: center;
+    font: message-box;
+}
+.cajaBotonUsuario{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 15px 18px;
+}
+.botonUsuario{
+    padding: 5px;
+    border-radius: 15px;
+    color: yellow;
+    background-color: black;
+}
+.fecha{
+    margin: 15px;
+    height: 35px;
+    width: 50%;
+    background-color: beige;
+}
+.horario{
+    margin: 15px;
+    height: 35px;
+    width: 50%;
+    background-color: beige;
+}
+.select{
+    margin: 15px;
+    height: 35px;
+    width: 50%;
+    background-color: beige;
+}
+.cajaBotonReserva{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 15px;
+}
+.botonReserva{
+    padding: 5px;
+    border-radius: 15px;
+    color: yellow;
+    background-color: black;
+}
+/* FOOTER */
+.cajaContacto{
+    background-color: black;
+    color: #ffffff;
+    padding: 25px;
+}
+.cajaRedes{
+    background-color: black;
+    border-top: 2px solid white;
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+/* TABLET */
+@media (min-width: 426px){
+    /*HEADER Y NAVBAR*/
+    .logoNavBar{
+        width: 16%;
+    }
+    .loginNavBar{
+        width: 143%;
+        margin-right: 10px;
+        color: white;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fa-shopping-cart{
+        color: white;
+    }
+}
+
+/* LAPTOP */
+@media (min-width: 769px){
+    /*HEADER Y NAVBAR*/
+    .fa-bars{
+        display: none;
+    }
+}
+
+/* COMPUTADORA DE ESCRITORIO */
+@media (min-width: 1025px){
+    /*HEADER Y NAVBAR*/
+    .loginNavBar{
+            justify-content: SPACE-EVENLY;
+    }
+}

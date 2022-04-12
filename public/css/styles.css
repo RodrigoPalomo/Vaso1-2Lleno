@@ -127,112 +127,7 @@ main{
     width: 100%;
     margin: 22px 0px 18px;
 }
-.horarios{
-    font-family: caudex,serif;
-}
-.primerHorario{
-    text-decoration: underline;
-}
-.segundoHorario{
-    text-decoration: underline;
-}
-.imagenTraje{
-    width: 100%;
-    opacity: 70%;
-    margin: 18px 0px 18px;
-}
-.queOfrecemos{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-.nuestrosCocktailsOfrecemos{
-    background-color: #1597e5d4;
-    border-radius: 13px;
-    padding: 4px;
-    position: absolute;
-    top: 41%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.gif{
-    width: 72%;
-    margin: 10PX;
-}
-.title{
-    color: black;
-}
-.descripcionCocktail{
-    font-family: caudex,serif;
-    color: #c10d0c;
-    margin: 34px 0px 39px;
-}
-.ingresarUsuario{
-    display: flex;
-    flex-flow: column;
-}
-.casillaEmail{
-    height: 35px;
-    margin: 0px 0px 20px;
-    border-radius: 7px;
-    background-color: beige;
-    display: flex;
-    align-content: center;
-    width: 78%;
-    align-self: center;
-    font: message-box;
-}
-.casillaPassword{
-    height: 35px;
-    margin: 0px 0px 20px;
-    border-radius: 7px;
-    background-color: beige;
-    display: flex;
-    align-content: center;
-    width: 78%;
-    align-self: center;
-    font: message-box;
-}
-.cajaBotonUsuario{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 0px 15px 18px;
-}
-.botonUsuario{
-    padding: 5px;
-    border-radius: 15px;
-    color: yellow;
-    background-color: black;
-}
-.fecha{
-    margin: 15px;
-    height: 35px;
-    width: 50%;
-    background-color: beige;
-}
-.horario{
-    margin: 15px;
-    height: 35px;
-    width: 50%;
-    background-color: beige;
-}
-.select{
-    margin: 15px;
-    height: 35px;
-    width: 50%;
-    background-color: beige;
-}
-.cajaBotonReserva{
-    display: flex;
-    flex-direction: row-reverse;
-    margin: 0px 15px;
-}
-.botonReserva{
-    padding: 5px;
-    border-radius: 15px;
-    color: yellow;
-    background-color: black;
-}
+
 /* FOOTER */
 .cajaContacto{
     background-color: black;
@@ -259,21 +154,6 @@ main{
     }
     .fa-bars{
         display: none;
-    }
-    .cajaPediOnline{
-        background-color:#5182ffd4;
-        width: 15%;
-        margin: 15px;
-        border-radius: 8px;
-        padding: 4px;
-        display: inline-flex;
-    }
-    .pediOnline{
-        color: blue;
-        text-align: center;
-    }
-    .fa-truck{
-        display: flex;
     }
     /* NAVBAR */
     .logoNavBar{
@@ -454,7 +334,6 @@ main{
     .gif{
         width: 22%;
     }
-    /* FOOTER */
 }
     /* COMPUTADORA DE ESCRITORIO */
     @media (min-width: 1025px){
