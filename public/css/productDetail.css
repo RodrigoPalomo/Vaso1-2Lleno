@@ -23,10 +23,14 @@ body{
 .detail-description{
     text-align: center;
 }
+.detail-nombreTrago{
+    color: #ad0000;
+}
 .detail-specialRequest{
-    padding: 25px 0px 0px 0px;
+    padding: 25px 0px 52px 0px;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid gray;
 }
 .detail-specialRequestBox{
     border: 1px solid gray;
@@ -34,9 +38,71 @@ body{
     padding: 20px 110px;
     background-color: #ffcd32;
 }
-.detail-separadorCarrito{
-    margin-top: 40px;
-}
 .detail-contenedorAñadirCarrito{
     border: 1px solid gray;
+}
+.detail-añadirCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 25px;
+    margin: 38px;
+}
+.detail-totalCarrito{
+    justify-content: space-evenly;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #0F2C67;
+    font-family: 'Caudex', serif;
+}
+
+/* TABLET */
+@media (min-width: 426px){
+    .detail-cajaTitulo{
+        background-color: #ffcd32;
+        text-align: center;
+    }
+    .detail-titulo{
+        text-decoration: underline;
+    }
+    /* BODY */
+    body{
+        font-family: 'Caudex', serif;
+        background-color: #ffcd32;
+    }
+    .detail-imagenAmericana{
+        width: 100%;
+        padding: 45px 17px 7px 17px;
+    }
+    .detail-description{
+        text-align: center;
+    }
+    .detail-nombreTrago{
+        color: #ad0000;
+    }
+    .detail-specialRequest{
+        padding: 25px 0px 52px 0px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid gray;
+    }
+    .detail-specialRequestBox{
+        border: 1px solid gray;
+        font-family: 'Caudex', serif;
+        padding: 20px 110px;
+        background-color: #ffcd32;
+    }
+    .detail-contenedorAñadirCarrito{
+        border: 1px solid gray;
+    }
+    .detail-añadirCarrito{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 25px;
+        margin: 38px;
+    }
 }
