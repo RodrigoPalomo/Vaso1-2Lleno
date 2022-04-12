@@ -17,12 +17,6 @@
   <header class="header">
     <nav class="navBar">
       <nav class="cajaLogoNavBar">
-        <nav class="loginNavBar">
-          <h4>Home</h4>
-          <h4>Sobre Nostros</h4>  
-          <a href="/detail"><h4>Nuestros Cocktails</h4></a> 
-          <h4>Iniciar Sesión</h4>
-        </nav>
         <div class="home-conteinerLogoYTitle">
           <img class="logoNavBar" src="./images/logo1.png" alt="logo" />
           <div class="home-conteinerTitleVaso12Lleno">
@@ -31,6 +25,13 @@
             <p>Lleno</p>
           </div>
         </div>
+        <nav class="loginNavBar">
+          <h4>Home</h4>
+          <a href="/about"><h4>Sobre Nosotros</h4></a>
+          <h4>Iniciar Sesión</h4>
+          <h4>Registrarse</h4>
+          <h4><i class="fas fa-shopping-cart"></i></h4>
+        </nav>
           <i class="fas fa-bars"></i>
       </nav>
     </nav>
@@ -51,8 +52,9 @@
           <img src="./images/carrousel3.jpg" alt=""> -->
           <button class="home-buttonCarrousel">Pedí tus tragos Online</button>
         </section>
-        <section>
-          <h2>Tragos Destacados</h2>
+        <!-- TANDA DE PRODUCTOS 1 -->
+        <section> 
+          <h2 class="home-tragosDestacados">Tragos Destacados</h2>
           <div class="seccionProductos">
             <section class="producto">
               <img
@@ -62,7 +64,7 @@
               />
               <div class="cajaProducto">
                 <h3 class="precio">ARS$520</h3>
-                <h3 class="nombre">Margarita</h3>
+                <a href="/detail"><h3 class="nombre">Margarita</h3></a>
               </div>
             </section>
             <section class="producto">
@@ -73,7 +75,7 @@
               />
               <div class="cajaProducto">
                 <h3 class="precio">ARS$500</h3>
-                <h3 class="nombre">Whisky</h3>
+                <a href="/detail"><h3 class="nombre">Whisky</h3></a>
               </div>
             </section>
             <section class="producto">
@@ -84,10 +86,19 @@
               />
               <div class="cajaProducto">
                 <h3 class="precio">ARS$400</h3>
-                <h3 class="nombre">Citrus Blend</h3>
+                <a href="/detail"><h3 class="nombre">Citrus Blend</h3></a>
               </div>
           </div>
           </section>
+        </section>
+        <!-- ANUNCIO -->
+        <div class="cajaGif">
+          <img class="gif" src="./images/gifNDA.gif" alt="Never Drink Alone">
+          </div>
+        <!-- TANDA DE PRODUCTOS 2 -->
+        <section>
+          <h2 class="home-tragosDestacados">Clásicos de la casa</h2>
+          <div class="seccionProductos">
           <section class="producto">
             <img
               class="imagenProducto"  
@@ -96,11 +107,34 @@
             />
             <div class="cajaProducto">
               <h3 class="precio">ARS$590</h3>
-              <h3 class="nombre">Campari</h3>
+              <a href="/detail"><h3 class="nombre">Campari</h3></a>
             </div>
           </section>
+          <section class="producto">
+            <img
+              class="imagenProducto"  
+              src="./images/copaRomero.jpg"
+              alt="Bloody Cherry"
+            />
+            <div class="cajaProducto">
+              <h3 class="precio">ARS$540</h3>
+              <a href="/detail"><h3 class="nombre">Gin Tonic</h3></a>
+            </div>
+          </section>
+          <section class="producto">
+            <img
+              class="imagenProducto"  
+              src="./images/otroTrago.jpg"
+              alt="Bloody Cherry"
+            />
+            <div class="cajaProducto">
+              <h3 class="precio">ARS$540</h3>
+              <a href="/detail"><h3 class="nombre">Champagne</h3></a>
+            </div>
+          </section>
+        </div>
         </section>
-            <hr>
+            <!-- <hr>
             <br>
             <h2>Horarios</h2>
             <br>
@@ -181,7 +215,7 @@
                 <input class="botonReserva" type="button" value="Reservar">
                 </div>
               </div>
-            </section>
+            </section> -->
             <br>
             <hr>
             <br>
@@ -189,8 +223,8 @@
               <div class="cajaContacto">
                 <h2 class="contact">Contacto:</h2>
                 <p><strong class="contact">Email: vasomediolleno@hotmail.com</strong></p>
-                <p><strong class="contact">Teléfono: 1234-5678</strong></p>
-                <p><strong class="contact">WhatsApp: (12)3456-7891</strong></p>
+                <p><strong class="contact">Sobre Nosotros</strong></p>
+                <p><strong class="contact">Preguntas Frecuentes</strong></p>
               </div>
               <div class="cajaRedes">
                 <div class="redes">
