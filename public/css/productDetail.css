@@ -3,6 +3,63 @@
     padding:0px;
     box-sizing: border-box;
 }
+
+/*HEADER Y NAVBAR*/
+header{
+    background-image: url("/images/background.jpg");
+    background-repeat: repeat-y;
+    position: sticky;top: 0;
+}
+.detail-conteinerTitleVaso12Lleno p{
+    color: white;
+}
+.detail-conteinerLogoYTitle{
+    display: flex;
+    align-items: center;
+}
+.detail-cajaLogoNavBar{
+    background-color: #7C0A02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail-burgerMenu{
+    text-align: right;
+}
+.fa-bars{
+    color: white;
+    margin: 22px;
+    font-size: 34px;
+}
+.detail-cajaPediOnline{
+    background-color:#5182ffd4;
+    width: 26%;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 4px;
+}
+.detail-pediOnline{
+    color: blue;
+    text-align: center;
+}
+.detail-fa-truck{
+    display: none;
+}
+.detail-logoNavBar{    
+    width: 20%;
+    margin: 10px 10px 10px 15px;
+}
+.detail-titulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.detail-loginNavBar{
+    display: none;
+}
+.detail-loginNavBar a{
+text-decoration: none;
+color: white;
+}
 /* BODY */
 body{
     font-family: 'Caudex', serif;
@@ -23,6 +80,9 @@ body{
 .detail-description{
     text-align: center;
 }
+.detail-descriptionCoctel{
+    margin-bottom: 2%;
+}
 .detail-nombreTrago{
     color: #ad0000;
 }
@@ -36,6 +96,9 @@ body{
     justify-content: center;
     border-bottom: 1px solid gray;
 }
+.detail-contenedorRegistrate{
+    display: none;
+}
 .detail-specialRequestBox{
     border: 1px solid gray;
     font-family: 'Caudex', serif;
@@ -47,10 +110,19 @@ body{
 }
 .detail-añadirCarrito{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: 25px;
-    margin: 38px;
+    margin-bottom: 40px;
+    margin-left: 39%;
+    border: 1px solid gray;
+    width: 20%;
+}
+.detail-contenedorTotalCarrito{
+    display: flex;
+    width: 37%;
+    margin-left: 31%;
+    justify-content: center;
+    padding: 10% 0% 10% 0%;
 }
 .detail-totalCarrito{
     justify-content: space-evenly;
@@ -62,17 +134,67 @@ body{
     background-color: #0F2C67;
     font-family: 'Caudex', serif;
 }
+/* FOOTER */
+.detail-cajaContacto{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    padding: 25px;
+}
+.detail-cajaRedes{
+    background-color: black;
+    border-top: 2px solid white;
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
 
-/* TABLET */
-
+        /* TABLET */
 @media (min-width: 426px){
+
+     /*HEADER*/
+     header{
+        background-image: url("/images/background.jpg");
+        background-repeat: repeat-y;
+        background-repeat: repeat-x ;
+        position: static ;top: 0;
+    }
+    .fa-bars{
+        display: none;
+    }
+    /* NAVBAR */
+    .detail-logoNavBar{
+        width: 16%;
+    }
+    .detail-loginNavBar{
+        width: 143%;
+        margin-right: 10px;
+        color: white;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fa-shopping-cart{
+        color: white;
+    }
     /* BODY */
     body{
         font-family: 'Caudex', serif;
         background-color: #ffcd32;
     }
+    .detail-contenedorRegistrate{
+        display: none;
+    }
+    .detail-contenedorImagen{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .detail-imagenAmericana{
-        width: 100%;
+        width: 80%;
         padding: 45px 17px 7px 17px;
     }
     .detail-description{
@@ -97,31 +219,33 @@ body{
         border: 1px solid gray;
     }
     .detail-añadirCarrito{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        font-size: 25px;
-        margin: 38px;
+        margin-right: 40%;
     }
 }
 
 /* LAPTOP */
 
 @media (min-width: 769px){
-    .detail-contenedorImagen{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
     .detail-imagenAmericana{
-        width: 85%;
+        width: 80%;
+    }
+    .detail-specialRequestBox{
+        text-align: center;
+    }
+    .detail-contenedorRegistrate{
+        display: none;
     }
 }
 
+/* LAPTOP LARGE */
+
 @media (min-width: 1025px){
     .detail-contenedorImagen{
-        flex-direction: initial;
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        margin-left: 5%;
+        margin-bottom: 17%;
     }
     .detail-imagenAmericana{
         width: 100%;
@@ -131,6 +255,8 @@ body{
     }
     .detail-specialRequest{
         border: none;
+        padding-bottom: 7%;
+        margin: 1% 2%;
     }
     .detail-description{
         display: flex;
@@ -138,4 +264,57 @@ body{
         text-align: justify;
         margin: 69px 20px 0px 0px;
     }
+    .detail-descriptionCoctel{
+        margin-bottom: 15px;
+    }
+    .detail-añadirCarrito{
+        border: 1px solid gray;
+        width: 20%;
+        margin: 0px 39%;
+    }
+    .detail-contenedorTotalCarrito{
+        position: absolute;
+        top: 35%;
+        right: 15%;
+    }
+    .detail-contenedorRegistrate{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+    .detail-cajaRegistrate{
+        display: flex;
+        background-color: #0f2c67;
+        width: 100%;
+        justify-content: center;
+        padding: 18px;
+    }
+    .detail-tituloRegistrate{
+        color: white;
+    }
+    .detail-textoRegistrate{
+        color: white;
+    }
+    .detail-cajaRegistrateTexto{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .detail-cajaBotonRegistrate{
+        margin-left: 4%;
+        margin-top: 6px;
+    }
+    .detail-botonRegistrate{
+        color: white;
+        background-color: #7c0a02;
+        border-radius: 17px;
+        padding: 5px;
+        font-size: 22px;
+    }
+}
+
+/* COMPUTADORA DE ESCRITORIO  */
+
+@media (min-width: 1441px){
+
 }

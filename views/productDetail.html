@@ -14,10 +14,35 @@
     <link rel="stylesheet" href="/css/productDetail.css"/>
     <title>Detail</title>
 </head>
+<header class="detail-header">
+    <nav class="detail-navBar">
+      <nav class="detail-cajaLogoNavBar">
+        <div class="detail-conteinerLogoYTitle">
+          <img class="detail-logoNavBar" src="./images/logo1.png" alt="logo" />
+          <div class="detail-conteinerTitleVaso12Lleno">
+            <p>Vaso</p>
+            <p>1/2</p>
+            <p>Lleno</p>
+          </div>
+        </div>
+        <nav class="detail-loginNavBar">
+          <h4>Home</h4>
+          <a href="/about"><h4>Sobre Nosotros</h4></a>
+          <h4>Iniciar Sesión</h4>
+          <h4>Registrarse</h4>
+          <h4><i class="fas fa-shopping-cart"></i></h4>
+        </nav>
+          <i class="fas fa-bars"></i>
+      </nav>
+    </nav>
+  </header>
 <body>
     <section class="detail-cajaDetalle"> 
     <div class="detail-contenedorImagen">
     <img class="detail-imagenAmericana" src="./images/americana.jpg" alt="Trago Americana">
+        <div class="detail-añadirCarrito">
+            <p>-  1  +</p>
+        </div>
     </div>
     <div class="detail-description">
         <h3 class="detail-nombreTrago">Bloody Cherry</h3>
@@ -29,6 +54,7 @@
         salsa perrins, tabasco, sal y pimienta. Las proporciones que usaremos para hacer el Bloody Mary son
         muy distintas a las habituales ya que la idea es potenciar todos los ingredientes para que luego se
         note el sabor del cóctel en el tomate cherry.</p>
+        <p>Vol 8.7%</p>
         <section class="detail-specialRequest">
             <div>
                 <h4>Petición Especial.</h4>
@@ -36,14 +62,42 @@
             </div>
         </section>
     </div>
-    </section> 
-    <section class="detail-añadirCarrito">
-        <div class="detail-contenedorAñadirCarrito">
-            <p>-  1  +</p>
-        </div>
+    </section>
+    <section>
+
         <div class="detail-contenedorTotalCarrito">
         <h4 class="detail-totalCarrito">Añadir a la orden</h4>
         </div>
+        <section class="detail-contenedorRegistrate">
+            <div class="detail-cajaRegistrate">
+              <div class="detail-cajaRegistrateTexto">
+              <p class="detail-tituloRegistrate">¡Regístrate!</p>
+              <p class="detail-textoRegistrate">... ¡Sí no estás registrado, podés hacerlo haciendo click acá!</p>
+              </div>
+              <div class="detail-cajaBotonRegistrate">
+                <p class="detail-botonRegistrate">REGISTRARSE</p>
+              </div>
+            </div>
+        </section>
     </section>
+    <footer>
+        <div class="detail-cajaContacto">
+          <h2 class="contact">Contacto:</h2>
+          <p><strong class="contact">Email: vasomediolleno@hotmail.com</strong></p>
+          <p><strong class="contact">Sobre Nosotros</strong></p>
+          <p><strong class="contact">Preguntas Frecuentes</strong></p>
+        </div>
+        <div class="detail-cajaRedes">
+          <div class="redes">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="redes">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="redes">
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
