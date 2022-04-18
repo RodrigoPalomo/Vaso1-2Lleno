@@ -6,8 +6,6 @@
 body{
     text-align: center;
     background-color: #ffbe0fe8;
-    background-image: url("/images/background.jpg");
-    background-repeat: repeat-y;
 }
 /*HEADER Y NAVBAR*/
 header{
