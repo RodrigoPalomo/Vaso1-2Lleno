@@ -102,8 +102,12 @@ main{
     align-items: center;
 }
 .producto{
+    width: 100%;
     margin: 10px;
     padding: 7px;
+}
+.productoEscondido{
+    display: none;
 }
 .cajaProducto{
     display: flex;
@@ -185,12 +189,20 @@ main{
     }
     .home-carrousel img{
         height: 277px;
+        width: 60%;
     }
     .imagenProducto{
         width: 53%;
     }
     .producto{
         width: 46%;
+    }
+    .productoEscondido{
+        display: block;
+        display: table;
+        width: 46%;
+        margin: 10px;
+        padding: 7px;
     }
     .imagenRelleno{
         width: 100%;
