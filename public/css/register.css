@@ -1,0 +1,291 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;top: 0;
+}
+.register-conteinerTitleVaso12Lleno p{
+    color: white;
+}
+.register-conteinerLogoYTitle{
+    display: flex;
+    align-items: center;
+}
+.register-cajaLogoNavBar{
+    background-color: #7C0A02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.register-burgerMenu{
+    text-align: right;
+}
+.fa-bars{
+    color: white;
+    margin: 22px;
+    font-size: 34px;
+}
+/* .register-cajaPediOnline{
+    background-color:#5182ffd4;
+    width: 26%;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 4px;
+}
+.register-pediOnline{
+    color: blue;
+    text-align: center;
+} */
+.fa-truck{
+    display: none;
+}
+.register-logoNavBar{    
+    width: 20%;
+    margin: 10px 10px 10px 15px;
+}
+.register-titulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.register-loginNavBar{
+    display: none;
+}
+.register-loginNavBar a{
+text-decoration: none;
+color: white;
+}
+
+/* BODY */
+
+body{
+    font-family: 'Caudex', serif;
+    background-color: #ffbe0fe8;
+}
+
+/* FORMULARIO */
+form label{
+    color: black;
+    font-size: 20px;
+}
+.register-nombreApellido{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    
+}
+.register-casillaNombre{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.register-casillaApellido{
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.register-nombreUsuario{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.register-casillaNombreUsuario{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.register-email{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.register-casillaEmail{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.register-fechaNacimiento{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.register-casillaFechaNacimiento{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.register-domicilio{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.register-casillaDomicilio{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.register-cajaPerfilUsuario{
+    display: flex;
+    justify-content: center;
+}
+.register-perfilUsuario{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.register-separadorComprador{
+    margin: 25px;
+    font-size: 16px;
+}
+.register-separadorVendedor{
+    margin-bottom: 41px;
+    font-size: 16px;
+}
+.register-categoria{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.register-categoria div{
+    margin: 22px;
+    font-size: 16px;
+}
+.register-fotoPerfil{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 60px;
+}
+.register-casillaFotoPerfil{
+    padding: 20px;
+}
+.register-contraseña{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.register-casillaContraseña{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.register-confirmarContraseña{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.register-casillaConfirmar{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.register-botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 50px;
+    margin-top: -9px;
+}
+.register-enviar{
+    margin-bottom: 15px;
+}
+.register-btnEnviar{
+    padding: 8px 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0F2C67;
+    color: white;
+}
+.register-txtEnviar{
+        color: white;
+        text-decoration: none;
+}
+.register-btnBorrar{
+    padding: 8px 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0F2C67;
+    color: white;
+}
+/* FOOTER */
+.register-cajaContacto{
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    padding: 25px;
+}
+.register-cajaRedes{
+    background-color: black;
+    border-top: 2px solid white;
+    color: #ffffff;
+    margin: 0px 0px 0px 0px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* TABLET */
+
+@media (min-width: 426px){
+    .fa-bars{
+        display: none;
+    }
+    /* NAVBAR */
+    .register-logoNavBar{
+        width: 16%;
+    }
+    .register-loginNavBar{
+        width: 143%;
+        margin-right: 10px;
+        color: white;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fa-shopping-cart{
+        color: white;
+    }
+}
+
+/* COMPUTADORA DE ESCRITORIO */

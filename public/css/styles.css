@@ -194,15 +194,11 @@ main{
     .imagenProducto{
         width: 53%;
     }
+    .seccionProductos{
+        justify-content: space-between;
+    }
     .producto{
         width: 46%;
-    }
-    .productoEscondido{
-        display: block;
-        display: table;
-        width: 46%;
-        margin: 10px;
-        padding: 7px;
     }
     .imagenRelleno{
         width: 100%;

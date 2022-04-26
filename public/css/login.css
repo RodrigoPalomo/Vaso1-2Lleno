@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;top: 0;
+}
+.login-conteinerTitleVaso12Lleno p{
+    color: white;
+}
+.login-conteinerLogoYTitle{
+    display: flex;
+    align-items: center;
+}
+.login-cajaLogoNavBar{
+    background-color: #7C0A02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-burgerMenu{
+    text-align: right;
+}
+.fa-bars{
+    color: white;
+    margin: 22px;
+    font-size: 34px;
+}
+.fa-truck{
+    display: none;
+}
+.login-logoNavBar{    
+    width: 20%;
+    margin: 10px 10px 10px 15px;
+}
+.login-titulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.login-loginNavBar{
+    display: none;
+}
+.login-loginNavBar a{
+text-decoration: none;
+color: white;
+}
+/* BODY */
+
+body{
+    font-family: 'Caudex', serif;
+    background-color: #ffbe0fe8;
+}
+
+/* FORMULARIO */
+.login-nombreUsuario{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.login-contraseña{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+.login-casillaNombreUsuario{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.login-casillaContraseña{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    border: none;
+}
+.login-botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 50px;
+    margin-top: 70px;
+}
+.login-enviar{
+    margin-bottom: 15px;
+}
+.login-btnEnviar{
+    padding: 8px 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0F2C67;
+    color: white;
+}
+.login-txtEnviar{
+        color: white;
+        text-decoration: none;
+}
+.login-btnBorrar{
+    padding: 8px 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0F2C67;
+    color: white;
+}
+/* TABLET */
+
+@media (min-width: 426px){
+    .fa-bars{
+        display: none;
+    }
+    /* NAVBAR */
+    .login-logoNavBar{
+        width: 16%;
+    }
+    .login-loginNavBar{
+        width: 143%;
+        margin-right: 10px;
+        color: white;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fa-shopping-cart{
+        color: white;
+    }
+}

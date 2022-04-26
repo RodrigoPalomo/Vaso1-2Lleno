@@ -6,6 +6,7 @@
 body{
     text-align: center;
     background-color: #ffbe0fe8;
+    font-family: 'Caudex', serif;
 }
 /*HEADER Y NAVBAR*/
 header{
@@ -72,6 +73,8 @@ color: white;
 }
 .segundoHorario{
     text-decoration: underline;
+}
+.imagenRelleno{
 }
 .imagenTraje{
     width: 100%;
@@ -202,6 +205,9 @@ color: white;
     }
     .fa-shopping-cart{
         color: white;
+    }
+    .fa-bars{
+        display: none;
     }
 }
 
