@@ -1,33 +1,23 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+let routesMain = require('./routes/main');
+let routesProducts = require('./routes/products');
+let routesUsers = require('./routes/users');
 
 const publicPath = path.resolve(__dirname, './public');
 app.use(express.static(publicPath));
+app.use(express.static('public'))
+app.set('view engine', 'ejs');
 
 app.listen(3000, () =>{
     console.log("Servidor corriendo en el puerto 3000.");
 });
 
-app.get('/', (req, res) =>{
-    res.sendFile(path.join(__dirname, './views/home.html'));
-});
-
-app.get('/detail', (req, res) =>{
-    res.sendFile(path.join(__dirname, './views/productDetail.html'));
-});
-
-app.get('/productCard', (req, res) =>{
-    res.sendFile(path.join(__dirname, './views/productCard.html'));
-});
-
-app.get('/about', (req, res) =>{
-    res.sendFile(path.join(__dirname, './views/about.html'));
-});
-
-app.get('/register', (req, res) =>{
-    res.sendFile(path.join(__dirname, './views/register.html'));
-});
-app.get('/login', (req, res) =>{
-    res.sendFile(path.join(__dirname, './views/login.html'));
-});
+// HOME
+app.use('/', routesMain);
+app.use('/about', routesMain);
+// PRODUCTOS
+app.use('/products', routesProducts);
+// USUARIO
+app.use('/users', routesUsers);

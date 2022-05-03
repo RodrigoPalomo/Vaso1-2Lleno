@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RodrigoPalomo/Vaso1-2Lleno#readme",
   "dependencies": {
+    "ejs": "^3.1.7",
     "express": "^4.17.3",
     "modules": "^0.4.0",
     "node": "^17.7.1"
