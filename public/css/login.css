@@ -111,6 +111,13 @@ body{
     background-color: #0F2C67;
     color: white;
 }
+form{
+    margin-bottom: 19%;
+    margin-top: 9%;
+}
+footer{
+    text-align: center;
+}
 /* TABLET */
 
 @media (min-width: 426px){

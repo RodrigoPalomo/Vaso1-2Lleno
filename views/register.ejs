@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <!--<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,10 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Caudex&family=Dancing+Script&family=League+Spartan:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/register.css" />
     <title>Vaso 1/2 Lleno</title>
   </head>
-<body>
+  <body>
     <header>
         <nav class="register-navBar">
           <nav class="register-cajaLogoNavBar">
@@ -33,23 +32,26 @@
               <a href="/users/register"><h4>Registrarse</h4></a>
               <a href="/products/cart"><h4><i class="fas fa-shopping-cart"></i></h4></a>
             </nav>
-              <i class="fas fa-bars"></i>
+            <i class="fas fa-bars"></i>
           </nav>
         </nav>
-      </header>
+      </header> -->
+      <link rel="stylesheet" href="/css/register.css" />
+      <body>
+      <%- include('./partials/head-header')%>
       <form action="register.html" method="POST">
         <label for="nombreApellido" class="register-nombreApellido">Nombre y apellido:
-          <input type="text" name="nombre" id="nombreApellido" placeholder="Nombre" class="register-casillaNombre">
-          <input type="text" name="apellido" id="nombreApellido" placeholder="Apellido" class="register-casillaApellido">
+          <input type="text" name="nombre" id="nombreApellido" placeholder="Nombre" class="register-casillaNombre" required>
+          <input type="text" name="apellido" id="nombreApellido" placeholder="Apellido" class="register-casillaApellido" required>
       </label>
       <label for="nombreUsuario" class="register-nombreUsuario">Nombre de usuario: 
-          <input type="text" name="usuario" id="nombreUsuario" placeholder="Nombre de usuario" class="register-casillaNombreUsuario">
+          <input type="text" name="usuario" id="nombreUsuario" placeholder="Nombre de usuario" class="register-casillaNombreUsuario" required>
       </label>
       <label for="email" class="register-email">Email: 
-        <input type="email" name="email" id="email" class="register-casillaEmail" placeholder="Email:">
+        <input type="email" name="email" id="email" class="register-casillaEmail" placeholder="Email:" required>
       </label>
       <label for="fechaNacimiento" class="register-fechaNacimiento">Fecha de fecha de nacimiento: 
-          <input type="date" name="fecha" id="fechaNacimiento" value="aaaa-mm-dd" min="1900-00-00" class="register-casillaFechaNacimiento">
+          <input type="date" name="fecha" id="fechaNacimiento" value="aaaa-mm-dd" min="1900-00-00" class="register-casillaFechaNacimiento" required>
       </label>
 <label for="perfilUsuario" class="register-perfilUsuario">Perfil de usuario
         <div class="register-separadorComprador">
@@ -64,21 +66,22 @@
         <input type="file" name="fotoPerfil" accept=".jpg, .png" class="register-casillaFotoPerfil">
       </label>
       <label for="contraseña" class="register-contraseña">Contraseña: 
-        <input type="password" name="contraseña" id="contraseña" placeholder="Escribir contraseña" class="register-casillaContraseña">
+        <input type="password" name="contraseña" id="contraseña" placeholder="Escribir contraseña" class="register-casillaContraseña" required>
       </label>
       <label for="confirmarContraseña" class="register-confirmarContraseña">
-        <input type="password" name="confirmarContraseña" id="confirmarContraseña" placeholder="Confirmar contraseña" class="register-casillaConfirmar">
+        <input type="password" name="confirmarContraseña" id="confirmarContraseña" placeholder="Confirmar contraseña" class="register-casillaConfirmar" required>
       </label>
       <div class="register-botones">
       <label for="enviar" class="register-enviar">
-        <button type="submit" class="register-btnEnviar"><a href="/" class="register-txtEnviar">Enviar</a></button>
+        <button type="submit" class="register-btnEnviar" class="register-txtEnviar">Enviar</button>
       </label>
       <label for="borrar" class="register-borrar">
         <button type="reset" class="register-btnBorrar">Borrar</button>
       </label>
       </div>
       </form>
-      <footer>
+      <%- include('./partials/footer'); %>
+      <!-- <footer>
         <div class="register-cajaContacto">
           <h2 class="contact">Contacto:</h2>
           <p><strong class="contact">Email: vasomediolleno@hotmail.com</strong></p>
@@ -96,6 +99,6 @@
             <i class="fab fa-twitter"></i>
           </div>
         </div>
-        </footer>
+        </footer> -->
 </body>
 </html>

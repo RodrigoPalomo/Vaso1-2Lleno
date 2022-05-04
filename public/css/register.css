@@ -248,6 +248,9 @@ form label{
     color: white;
 }
 /* FOOTER */
+footer{
+    text-align: center;
+}
 .register-cajaContacto{
     text-align: center;
     background-color: black;
